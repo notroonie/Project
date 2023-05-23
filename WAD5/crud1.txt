@@ -1,0 +1,14 @@
+step 1 : login to your mongo server
+s2: on vs terminal
+npm i init 
+npm i mongoose
+npm i nodemon
+npm i express
+
+
+
+s2: download all files
+s3: download thunder client extenstion
+s4: thunder client extention : localhost:3001/programmer
+s5: localhost:3001/programmer - get : you will get details 
+s6:  localhost:3001/programmer - post >> body >> add json 
