@@ -1,0 +1,22 @@
+Transfer file from one virtualmachine to another
+
+seting up 2 ubuntus:
+ubuntu1: select>>settings>>network>>select nat network
+ubuntu2: select>>settings>>network>>select nat network
+
+2> go to vm interface>>file>>preferences>>network>>nat network
+
+ubuntu1 :
+openterminal>> ifconfig>>inet(ipadress)
+terminal>> touch file.txt
+add some text manually in file
+terminal>>scp file.text@ubuntu2 ipaddress:
+enter password for ubuntu 2
+
+if connection refused error:
+sudo apt install openssh-server
+
+
+ubuntu2 :
+openterminal>> ifconfig>>inet(ipadress)
+
