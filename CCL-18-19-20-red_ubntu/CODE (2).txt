@@ -1,0 +1,21 @@
+
+https://www.awseducate.com/signin/SiteLogin?language=en_US
+login>>computelab>>modules>>getting started with compute labs (4rthoption)
+>>start lab
+>>aws
+>>ec2
+>>launch instace
+>>add name 
+>>select ubuntu red hart or aws
+>>click on genrate key value pair
+>>launch instance
+>>go back to running instance 
+>>wait till completed comes
+>>then click the check box and press connect
+>>select ssh client and copy example
+>>open terminal in the downloaded file
+>>paste the copied text
+>>more /etc/os-release
+
+if any key error:
+chmod 400 filename.pem
