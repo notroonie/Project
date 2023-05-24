@@ -1,0 +1,28 @@
+Git comands :
+
+>>Push first time
+git init
+git add .
+git commit -m "first"
+git status
+git remote add origin git@github.
+git branch -M main
+git push -u origin main
+
+>>push second time
+git add .
+git commit -m "v"
+git push -u origin main
+
+>>clone repo
+create a folder
+cd folder
+git clone https://github.com
+
+>>pull 
+adda file on git and then pull it manually on your vs
+git fetch 
+git pull
+
+
+
