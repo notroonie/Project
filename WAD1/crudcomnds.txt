@@ -1,0 +1,20 @@
+CRUD : 
+step 1 : login to your mongo server
+s2: on vs terminal
+npm i init 
+npm i mongoose
+npm i nodemon
+npm i express
+
+
+>>package.json
+main ke neeche :
+ "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+}
+
+s3: download thunder client extenstion
+s4: thunder client extention : localhost:3001
+s5: localhost:3001 - get : you will get details 
+s6:  localhost:3001 - post >> body >> add json 
